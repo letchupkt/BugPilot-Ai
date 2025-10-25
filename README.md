@@ -1,4 +1,5 @@
-# 🐛 BugPilot AI - Advanced Security Testing Assistant
+# 🐛 BugPilot AI - AI-Powered Security Assistant
+<img width="1700" height="460" alt="github-header-banner (2)" src="https://github.com/user-attachments/assets/376c65ed-48b3-40a3-a7c2-9701fd941e2a" />
 
 [![GitHub stars](https://img.shields.io/github/stars/letchupkt/BugPilot-Ai?style=social)](https://github.com/letchupkt/BugPilot-Ai/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/letchupkt/BugPilot-Ai?style=social)](https://github.com/letchupkt/BugPilot-Ai/network)
@@ -443,5 +444,6 @@ If BugPilot AI helps you in your security testing journey, please consider:
 *Professional security testing made intelligent, efficient, and accessible.*
 
 **Transform your security testing workflow with AI-powered automation!**
+
 
 

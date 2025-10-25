@@ -7,7 +7,7 @@
 
 **Version:** 2025.10.25  
 **Author:** LAKSHMIKANTHAN K (letchupkt)  
-**© 2025 LAKSHMIKANTHAN K (letchupkt) - Enhanced MCP Kali Server**
+**Enhanced MCP Kali Server**
 
 ## 🚀 **OVERVIEW**
 
@@ -544,3 +544,4 @@ If BugPilot AI helps you in your security testing journey, please consider:
 *Professional security testing made intelligent, efficient, and accessible.*
 
 **Transform your security testing workflow with AI-powered automation!**
+

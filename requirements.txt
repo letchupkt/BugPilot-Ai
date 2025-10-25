@@ -1,0 +1,27 @@
+# BugPilot AI - Python Dependencies
+# Author: LAKSHMIKANTHAN K (letchupkt)
+# © 2025 LAKSHMIKANTHAN K (letchupkt) - Enhanced MCP Kali Server
+
+# Core GUI Framework
+PyQt5==5.15.10
+
+# HTTP Client for API calls and MCP communication
+requests>=2.31.0
+
+# AI Model Support (Optional - install as needed)
+# Uncomment the ones you plan to use:
+
+# For Ollama support
+# ollama>=0.1.0
+
+# For OpenAI support  
+# openai>=1.0.0
+
+# For Google Gemini support
+# google-generativeai>=0.3.0
+
+# Build Dependencies (for creating executable)
+# pyinstaller==5.13.2
+
+# System utilities
+# psutil>=5.9.0

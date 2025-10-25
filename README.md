@@ -33,20 +33,11 @@ BugPilot AI is a professional desktop application that provides an intelligent i
 - **Subdomain Takeover:** subjack, subzy
 - **And many more specialized tools...**
 
-### **💻 Professional GUI Interface**
-- **Dark Hacker Theme** - Professional cybersecurity aesthetic
-- **Tabbed Interface** - Chat, Tools, Results, Activity, Settings
-- **Real-time Feedback** - Live tool execution status and progress
-- **Typing Animations** - Visual feedback during AI processing
-- **Results Management** - Organized scan results with timestamps
-- **Export Functionality** - Save results and generate reports
-
 ### **🔧 Advanced Capabilities**
 - **MCP Server Integration** - Connect to Kali Linux MCP server for remote tool execution
 - **Fake Response Detection** - Warns when AI provides simulated results instead of real tool execution
 - **Session Management** - Persistent conversation and scan history
 - **Multi-target Support** - Handle multiple targets simultaneously
-- **Custom Tool Integration** - Add your own security tools
 
 ## 📁 **PROJECT STRUCTURE**
 
@@ -57,8 +48,7 @@ BugPilot-AI/
 ├── 📄 install.py              # Installation helper script
 ├── 🖼️ bugpilot-logo.ico       # Application icon
 ├── 📄 requirements.txt        # Python dependencies
-├── 📖 README.md              # This comprehensive documentation
-└── 📖 README2.md             # Additional documentation (merged here)
+├── 📖 README.md               # This comprehensive documentation
 ```
 
 ## 🔧 **INSTALLATION & SETUP**
@@ -66,7 +56,7 @@ BugPilot-AI/
 ### **Prerequisites**
 - **Python 3.9+** (Python 3.9 recommended for building executables)
 - **Windows/Linux/macOS** (GUI optimized for Windows)
-- **Kali Linux Server** (optional, for MCP tools)
+- **Kali Linux Server** (for MCP tools)
 - **4GB RAM** minimum, 8GB recommended
 - **Internet connection** for AI models and tool updates
 
@@ -112,32 +102,11 @@ python bugpilot_ai.py
 ### **MCP Server Setup (Optional)**
 ```bash
 # On your Kali Linux machine
-python kali_server.py
+python3 kali_server.py
 
 # Server will start on port 5000
 # Configure the server URL in BugPilot AI Settings
 ```
-
-## 🚀 **BUILDING EXECUTABLE**
-
-Create a standalone executable (.exe) file for easy distribution:
-
-### **Using PyInstaller**
-```bash
-# Install PyInstaller (specific version for compatibility)
-pip install pyinstaller==5.13.2
-
-# Build executable
-pyinstaller --onefile --windowed --icon=bugpilot-logo.ico --name=BugPilotAI bugpilot_ai.py
-
-# Output will be in dist/ folder
-```
-
-### **Build Specifications**
-- **File Size:** 50-80 MB standalone executable
-- **Dependencies:** All Python libraries bundled
-- **Compatibility:** Windows 10/11, portable across systems
-- **No Installation Required:** Run directly from executable
 
 ## 🎯 **USAGE GUIDE**
 
@@ -345,17 +314,6 @@ Solution:
 5. Update tools to latest versions
 ```
 
-#### **Build/Installation Issues**
-```
-Problem: PyInstaller fails or dependencies missing
-Solution:
-1. Use Python 3.9 instead of newer versions
-2. Use PyInstaller 5.13.2 specifically
-3. Create clean virtual environment
-4. Install dependencies one by one if needed
-5. Check system architecture compatibility
-```
-
 #### **Performance Issues**
 ```
 Problem: Application runs slowly or freezes
@@ -407,69 +365,7 @@ git pull origin main
 # Update dependencies
 pip install -r requirements.txt --upgrade
 
-# Rebuild executable if needed
-pyinstaller --onefile --windowed --icon=bugpilot-logo.ico --name=BugPilotAI bugpilot_ai.py
 ```
-
-### **Updating Security Tools**
-```bash
-# On Kali Linux
-sudo apt update && sudo apt upgrade
-
-# Update Go-based tools
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-
-# Update Python tools
-pip install --upgrade sqlmap
-```
-
-### **Backup & Restore**
-```bash
-# Backup configuration and results
-mkdir backup
-cp -r results/ backup/
-cp config.json backup/
-cp scan_history.db backup/
-
-# Restore from backup
-cp -r backup/results/ .
-cp backup/config.json .
-cp backup/scan_history.db .
-```
-
-## 🤝 **CONTRIBUTING**
-
-### **How to Contribute**
-1. **Fork the Repository**
-   ```bash
-   git fork https://github.com/letchupkt/BugPilot-Ai.git
-   ```
-
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/new-tool-integration
-   ```
-
-3. **Make Changes**
-   - Add new security tools
-   - Improve AI model integration
-   - Enhance UI/UX features
-   - Fix bugs and issues
-
-4. **Submit Pull Request**
-   - Include detailed description
-   - Add tests for new features
-   - Follow coding standards
-   - Update documentation
-
-### **Development Guidelines**
-- Follow PEP 8 coding standards
-- Add comprehensive comments
-- Include error handling
-- Write unit tests for new features
-- Update documentation
 
 ### **Bug Reports & Feature Requests**
 - Use GitHub Issues for bug reports
@@ -523,6 +419,9 @@ This software is provided for **educational and authorized security testing purp
 - **Name:** LAKSHMIKANTHAN K (letchupkt)
 - **GitHub:** [@letchupkt](https://github.com/letchupkt)
 - **Repository:** [BugPilot-Ai](https://github.com/letchupkt/BugPilot-Ai)
+- **InstaGram:** [@letchupkt](https://instagram.com/letchu_pkt)
+- **Linkedin:** [@lakshmikanthank](https://linkedin.com/in/lakshmikanthank)
+
 
 ### **Professional Services**
 For enterprise support, custom integrations, or professional security testing services, please contact through GitHub.
@@ -544,4 +443,5 @@ If BugPilot AI helps you in your security testing journey, please consider:
 *Professional security testing made intelligent, efficient, and accessible.*
 
 **Transform your security testing workflow with AI-powered automation!**
+
 
